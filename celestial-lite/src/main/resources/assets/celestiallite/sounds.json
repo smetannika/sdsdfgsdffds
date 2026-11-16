@@ -1,0 +1,9 @@
+{
+  "hit_uwu":    { "sounds": ["celestiallite:hitsounds/uwu"] },
+  "hit_bonk":   { "sounds": ["celestiallite:hitsounds/bonk"] },
+  "hit_marker": { "sounds": ["celestiallite:hitsounds/marker"] },
+  "hit_moan_1": { "sounds": ["celestiallite:hitsounds/moan_1"] },
+  "hit_moan_2": { "sounds": ["celestiallite:hitsounds/moan_2"] },
+  "hit_moan_3": { "sounds": ["celestiallite:hitsounds/moan_3"] },
+  "hit_moan_4": { "sounds": ["celestiallite:hitsounds/moan_4"] }
+}

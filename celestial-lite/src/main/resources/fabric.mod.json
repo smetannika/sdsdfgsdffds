@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "celestiallite",
+  "version": "${version}",
+  "name": "Celestial Lite",
+  "description": "AttackAura, TriggerBot, Criticals, Velocity, HitBoxes, AutoTotem, AutoGApple, AutoPotion, AutoSwap, AutoExplosion, BowSpam, SuperBow, TapeMouse, HitSounds, AntiBot, FriendProtect + AutoSprint, Fullbright, NoFall, AutoRespawn. Binds in Options > Controls.",
+  "authors": [
+    "you"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.celestiallite.CelestialLite"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "java": ">=8"
+  },
+  "mixins": [
+    {
+      "config": "celestiallite.mixins.json",
+      "environment": "client"
+    }
+  ]
+}

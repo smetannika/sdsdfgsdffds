@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.celestiallite.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ClientPlayNetworkHandlerMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "EntityMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
